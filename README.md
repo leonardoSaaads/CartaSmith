@@ -1,10 +1,13 @@
 # Carta de Smith -  Smith Chart
 
-![](https://raw.githubusercontent.com/leonardoSaaads/CartaSmith/main/Imagens%20Projeto/Azul%20Companhia%20A%C3%A9rea%20Geral%20LinkedIn%20Banner.png?token=AQUTBFW2HFB4UIVXU2SM76TBJSFTC)
+<img style="-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://raw.githubusercontent.com/leonardoSaaads/CartaSmith/main/Imagens%20Projeto/Azul%20Companhia%20A%C3%A9rea%20Geral%20LinkedIn%20Banner.png?token=AQUTBFUQW2IRELV436CSF4DBJSHV2" width="800" height="200">
 
 Neste repositório serão exploradas as funcionalidades para a exploração, plotagem e mensurações com base na carta de Smith.
 
-[bandagem]
+https://img.shields.io/github/issues/leonardoSaaads/CartaSmith
+https://img.shields.io/github/forks/leonardoSaaads/CartaSmith
+https://img.shields.io/github/stars/leonardoSaaads/CartaSmith
+https://img.shields.io/github/license/leonardoSaaads/CartaSmith
 
 
 ## STATUS DO PROJETO: *EM CONSTRUÇÃO.* ✅
@@ -41,4 +44,6 @@ Após a garantida dessas bibliotecas, basta utilizar o arquivo, disponível [aqu
 ## Autores
 
 By Leonardo Saads Pinto
+
+
 2021 - Setembro 
