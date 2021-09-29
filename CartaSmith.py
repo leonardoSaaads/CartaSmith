@@ -16,15 +16,15 @@ class CartaSmith:
     - PLOT_SMITH
     """
 
-    def __init__(self):
-        # Impedancia Característica (Z0).
-        self.__Z0 = None
-        # Impedancia da Onda (ZL).
-        self.__ZL = None
-        # Impedancia Normalizada (ZN).
-        self.__ZN = None
-        # Coeficiente de Reflexão (RF).
-        self.__RF = None
+    def __init__(self, RF=None, ZN=None, ZL=None, Z0=None):
+        # Impedancia Característica (Z0): float
+        self.__Z0 = Z0
+        # Impedancia da Onda (ZL): list
+        self.__ZL = ZL
+        # Impedancia Normalizada (ZN): list
+        self.__ZN = ZN
+        # Coeficiente de Reflexão (RF): list
+        self.__RF = RF
 
     # DEFININDO GETTERS
 
@@ -214,8 +214,7 @@ if __name__ == '__main__':
     linha.sumario()
     linha.plotar_coeficiente()
 
-    linha2 = CartaSmith()
-    linha2.ZL = [1+4j, 1 + 6j, 1 + 8j, 1 + 10j]
-    linha2.Z0 = 2
-    linha2.sumario()
-    linha2.plotar_coeficiente()
+    teste = CartaSmith(
+        Z0=50,
+        ZL=[20+2j, 4+6j]
+    )
