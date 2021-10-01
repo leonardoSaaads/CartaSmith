@@ -67,6 +67,27 @@ O número de parâmetros desconhecidos é: 0
 
 <img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://raw.githubusercontent.com/leonardoSaaads/CartaSmith/main/Imagens%20Projeto/Figure_2.png" width="476" height="357">
 
+## Como Utilizar:
+
+Para utilizar a biblioteca, você pode adicionar os parâmetros na chamada da classe.
+Exemplo: 
+```
+exemplo = CartaSmith(
+        Z0=50,
+        ZL=[50 + 50j, 50 + 49j, 50 + 48j, 50 + 38j, 50 + 12j]
+    )
+```
+ou colocando-se diretamente na classe feita.
+Exemplo:
+```
+teste = CartaSmith()
+    teste.Z0 = 50
+    vetor = np.arange(0, 2 * np.pi, 0.1)
+    teste.ZL = 50 + 50j * np.sin(vetor)
+```
+Utilize o comando ```.sumario()``` para exibir o sumário
+Utilize o comando ```.ajustar()``` para adequart todos os valores da classe.
+
 ## Autores
 
 By Leonardo Saads Pinto
