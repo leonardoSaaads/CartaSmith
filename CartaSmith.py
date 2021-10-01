@@ -109,7 +109,7 @@ class CartaSmith:
         for i in range(2):
             # Ajuste do ZO
             if self.__ZL is not None and self.__ZN is not None and self.__Z0 is None:
-                self.__Z0 = self.__ZL / self.__ZN
+                self.__Z0 = np.mean(self.__ZL / self.__ZN)
 
             # Ajuste do ZL
             if self.__Z0 is not None and self.__ZN is not None and self.__ZL is None:
@@ -214,7 +214,11 @@ if __name__ == '__main__':
     linha.sumario()
     linha.plotar_coeficiente()
 
-    teste = CartaSmith(
-        Z0=50,
-        ZL=[20+2j, 4+6j]
-    )
+    teste = CartaSmith()
+    teste.Z0 = 50
+    vetor = np.arange(0, 2 * np.pi, 0.1)
+    teste.ZL = 50 + 50j * np.sin(vetor)
+    teste.sumario()
+    teste.ajustar()
+    teste.sumario()
+    teste.plotar_coeficiente()
