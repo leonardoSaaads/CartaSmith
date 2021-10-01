@@ -65,6 +65,8 @@ O número de parâmetros desconhecidos é: 0
 
 <img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://raw.githubusercontent.com/leonardoSaaads/CartaSmith/main/Imagens%20Projeto/Figure_1.png" width="476" height="357">
 
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://raw.githubusercontent.com/leonardoSaaads/CartaSmith/main/Imagens%20Projeto/Figure_2.png" width="476" height="357">
+
 ## Autores
 
 By Leonardo Saads Pinto
