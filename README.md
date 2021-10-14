@@ -177,9 +177,9 @@ Example:
     vector = np.arange(0, 2 * np.pi, 0.1)
     example.ZL = 50 + 50j * np.sin(vector)
 ```
-Use the ```.summary()``` command to display the summary.
+Use the ```.sumario()``` command to display the summary.
 
-Use the ```.adjust()``` command to adjust all values ​​in the class.
+Use the ```.ajustar()``` command to adjust all values in the class.
 
 ## Authors
 
@@ -191,4 +191,4 @@ By Leonardo Saads Pinto
 
 MIT;
 
-A licença é permissiva e considerada equivalente a BSD Simplificada sem a cláusula de endosso. Porém, seu texto é bem mais explícito ao tratar dos direitos que estão sendo transferidos, afirmando que qualquer pessoa que obtém uma copia do software e seus arquivos de documentação associados pode lidar com eles sem restrição, incluindo sem limitação os direitos a usar, copiar, modificar, mesclar, publicar, distribuir, vender copias do software. As condições impostas para tanto são apenas manter o aviso de copyright e uma copia da licença em todas as cópias do software.
+A licença é permissiva e considerada equivalente a BSD Simplificada sem a cláusula de endosso. Porém, seu texto é bem mais explícito ao tratar dos direitos que estão sendo transferidos, afirmando que qualquer pessoa que obtém uma copia do software e seus arquivos de documentação associados pode lidar com eles sem restrição, incluindo sem limitação os direitos a usar, copiar, modificar, mesclar, publicar, distribuir, vender copias do software. As condições impostas para tanto são apenas manter o aviso de copyright e uma copia da licença em todas as cópias do software. Disponível em: https://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT, Acesso em 14 de outubro de 2021.
