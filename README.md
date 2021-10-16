@@ -89,11 +89,12 @@ Utilize o comando ```.sumario()``` para exibir o sumário.
 
 Utilize o comando ```.ajustar()``` para adequart todos os valores da classe.
 
-## Autores
+## O que falta? 
 
-By Leonardo Saads Pinto
-
-2021 - Setembro
+- Interface gráfica mais desenvolvida (GUI)
+- Mais funcionalidades em termos da frequência
+- Visualização de gráficos em função da frequência
+- Opção de operações em tubos terminados em curto ou aberto com os respectivos comprimentos.
 
 # ENGLISH
 
@@ -181,14 +182,16 @@ Use the ```.sumario()``` command to display the summary.
 
 Use the ```.ajustar()``` command to adjust all values in the class.
 
-## Authors
+## License
+
+**MIT**
+
+The license is permissive and equivalent to BSD Simplified without an endorsement clause. However, its text is much more explicit in dealing with the rights being transferred, stating that anyone who obtains a copy of the software and its associated document files can handle them without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sell copies of the software. The conditions imposed for this are only to maintain the copyright notice and a copy of the license on all copies of the software. Available at: https://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT, Accessed October 14, 2021.
+
+A licença é permissiva e considerada equivalente a BSD Simplificada sem a cláusula de endosso. Porém, seu texto é bem mais explícito ao tratar dos direitos que estão sendo transferidos, afirmando que qualquer pessoa que obtém uma copia do software e seus arquivos de documentação associados pode lidar com eles sem restrição, incluindo sem limitação os direitos a usar, copiar, modificar, mesclar, publicar, distribuir, vender copias do software. As condições impostas para tanto são apenas manter o aviso de copyright e uma copia da licença em todas as cópias do software. Disponível em: https://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT, Acesso em 14 de outubro de 2021.
+
+## Autores / Authors
 
 By Leonardo Saads Pinto
 
 2021 - September
-
-## License
-
-MIT;
-
-A licença é permissiva e considerada equivalente a BSD Simplificada sem a cláusula de endosso. Porém, seu texto é bem mais explícito ao tratar dos direitos que estão sendo transferidos, afirmando que qualquer pessoa que obtém uma copia do software e seus arquivos de documentação associados pode lidar com eles sem restrição, incluindo sem limitação os direitos a usar, copiar, modificar, mesclar, publicar, distribuir, vender copias do software. As condições impostas para tanto são apenas manter o aviso de copyright e uma copia da licença em todas as cópias do software. Disponível em: https://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT, Acesso em 14 de outubro de 2021.
