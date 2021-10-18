@@ -14,6 +14,7 @@ class CartaSmith:
     - AJUSTAR
     - SUMARIO
     - PLOT_SMITH
+    - PLOT COEFICIENTES
     """
 
     def __init__(self, RF=None, ZN=None, ZL=None, Z0=None):
@@ -147,8 +148,11 @@ class CartaSmith:
               f'--------------------------------------------------')
 
         # ALERTAS PARA USUÁRIOS:
-        if sum(parametros_desconhecidos) > 0:
+        if sum(parametros_desconhecidos) == 2:
             print('ATENÇÃO: Utilize o comando ".ajustar()" para determinar os parâmetros desconhecidos.\n')
+
+        if sum(parametros_desconhecidos) == 3:
+            print('ATENÇÃO: Informado apenas um parâmetro. Adicione outro para prosseguir.\n')
 
     # FUNÇÕES DE PLOTAGEM E ANÁLISE GRÁFICA
 
@@ -200,25 +204,20 @@ class CartaSmith:
         plt.title("Carta de Smith")
 
     def plotar_coeficiente(self):
-        self.plotar_carta()
-        plt.plot(self.RF.real, self.RF.imag, color='blue', marker='o')
-        plt.show()
+        if self.RF is not None:
+            self.plotar_carta()
+            plt.plot(self.RF.real, self.RF.imag, 'ro', label="Coeficientes Reflexão")
+            plt.show()
+        else:
+            print('Parâmetro dos coeficientes de reflexão não determinados.\n')
 
 
 if __name__ == '__main__':
-    linha = CartaSmith()
-    linha.ZL = 100 + 120j
-    linha.Z0 = 90
-    linha.sumario()
-    linha.ajustar()
-    linha.sumario()
-    linha.plotar_coeficiente()
-
-    teste = CartaSmith()
-    teste.Z0 = 50
-    vetor = np.arange(0, 2 * np.pi, 0.1)
-    teste.ZL = 50 + 50j * np.sin(vetor)
-    teste.sumario()
-    teste.ajustar()
-    teste.sumario()
-    teste.plotar_coeficiente()
+    teste2 = CartaSmith(
+        ZL=np.array([100 + 50j, 75 - 100j, 200j, 150, 999999, 0, 50, 184-900j])
+    )
+    teste2.sumario()
+    teste2.Z0 = 50
+    teste2.ajustar()
+    teste2.sumario()
+    teste2.plotar_coeficiente()
