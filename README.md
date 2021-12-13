@@ -6,7 +6,7 @@
 <a href="https://github.com/leonardoSaaads/CartaSmith/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/leonardoSaaads/CartaSmith"></a>
 <a href="https://github.com/leonardoSaaads/CartaSmith/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/leonardoSaaads/CartaSmith"></a>
 
-## STATUS DO PROJETO: *EM CONSTRUÇÃO.* ✅
+## STATUS DO PROJETO: *PAUSADO* 
 
 
 ## TABELA
@@ -98,7 +98,7 @@ Utilize o comando ```.ajustar()``` para adequart todos os valores da classe.
 
 # ENGLISH
 
-## PROJECT STATUS: *UNDER CONSTRUCTION.* ✅
+## PROJECT STATUS: *PAUSED* 
 
 
 ## TABLE
